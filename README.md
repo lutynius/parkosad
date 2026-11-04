@@ -2,7 +2,7 @@
 Parkosad je jednoduchý kvíz na moravskoslezské sady a parky, např. v Ostravě, Orlové, Rychvaldě, Karviné, atd.
 
 ## The Game Link
-🌐 https://lutynius.github.io/namestys/
+🌐 https://lutynius.github.io/parkosad/
 
 ## License & Attribution
 
