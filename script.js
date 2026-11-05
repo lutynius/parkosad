@@ -319,6 +319,12 @@ console.log("Max score constant: " + maxScore);
 const ITERATED = [];
 //***********************************************************/
 const BUNCH_OF_DASHES = "-------------------------------------------------------------------------------------------------------";
+const VERSION_1_1 = BUNCH_OF_DASHES + `
+Verze 1.1 "Modern Curves Update" - čtvrtek 5.11.2026
+    - development jen tento čtvrtek
+    - Udělal jsem tlačítka jemně ohnutá (radius 10%)
+    - Přidal jsem copyright text, jelikož jsem na to v Releasu zapomněl
+`;
 const VERSION_1_0 = BUNCH_OF_DASHES + `
 Verze 1.0 "Release" - středa 4.11.2026
     - development de facto začal 31.10.2026
@@ -334,7 +340,8 @@ Verze 1.0 "Release" - středa 4.11.2026
         4. Temno
         5. Blud
 `;
-const LOG = VERSION_1_0;
+const LOG = VERSION_1_1 +
+    VERSION_1_0;
 UPDATELOG_TEXT.textContent = LOG;
 preloadImages();
 export {};

@@ -16,6 +16,10 @@ h2 {
     font-size: 2rem;
 }
 
+button {
+    border-radius: 10%;
+}
+
 /*----------------------------------------------------------------*/
 
 #main-menu {
@@ -172,6 +176,9 @@ h2 {
 }
 
 #copyright {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
     font-size: 1rem;
 }
 
@@ -182,6 +189,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #main {

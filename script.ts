@@ -362,6 +362,13 @@ const ITERATED: Array<Question> = [];
 
 const BUNCH_OF_DASHES: string = "-------------------------------------------------------------------------------------------------------";
 
+const VERSION_1_1: string = BUNCH_OF_DASHES + `
+Verze 1.1 "Modern Curves Update" - čtvrtek 5.11.2026
+    - development jen tento čtvrtek
+    - Udělal jsem tlačítka jemně ohnutá (radius 10%)
+    - Přidal jsem copyright text, jelikož jsem na to v Releasu zapomněl
+`;
+
 const VERSION_1_0: string = BUNCH_OF_DASHES + `
 Verze 1.0 "Release" - středa 4.11.2026
     - development de facto začal 31.10.2026
@@ -378,7 +385,9 @@ Verze 1.0 "Release" - středa 4.11.2026
         5. Blud
 `;   
 
-const LOG: string = VERSION_1_0;
+const LOG: string = 
+    VERSION_1_1+
+    VERSION_1_0;
 
 UPDATELOG_TEXT.textContent = LOG;
 
