@@ -332,7 +332,7 @@ TO_BE_ITERATED.push(KOMENSKEHO);
 
 const DR_MILADY_HORAKOVE = new Question("Co je tohle za SAD v Ostravě?",
     "images/dr_milady_horakove.png", [
-        "dmh", "dr.mh", "drm h", "dr m h", "dr.m h", "drm h.", "drm. h", "dr m h.", "dr m. h", "dr. m h", "dr.m h.", "dr.m. h", "drm. h.", "dr m. h.", "dr. m h.", "dr. m. h", "dr.m. h.", "dokt. m h", "dr. m. h.", "milady h.", "dokt. m h.", "dokt. m. h", "doktor m h", "drmilady h", "dokt. m. h.", "doktor m h.", "doktor m. h", "dr milady h", "dr.milady h", "drmilady h.", "m. horakove", "m. horákové", "doktor m. h.", "dr milady h.", "dr. milady h", "dr.milady h.", "drm horakove", "drm horákové", "dr m horakove", "dr m horákové", "dr. milady h.", "dr.m horakove", "dr.m horákové", "drm. horakove", "drm. horákové", "dokt. milady h", "dr m. horakove", "dr m. horákové", "dr. m horakove", "dr. m horákové", "dr.m. horakove", "dr.m. horákové", "dokt. milady h.", "doktor milady h", "dr. m. horakove", "dr. m. horákové", "dokt. m horakove", "dokt. m horákové", "doktor milady h.", "dokt. m. horakove", "dokt. m. horákové", "doktor m horakove", "doktor m horákové", "drmilady horakove", "drmilady horákové", "doktor m. horakove", "doktor m. horákové", "dr milady horakove", "dr milady horakové", "dr milady horákové", "dr.milady horakove", "dr.milady horákové", "dr. milady horakove", "dr. milady horakové", "dr. milady horákove", "dr. milady horákové", "dr. milady. horákové", "dokt. milady horakove", "dokt. milady horákové", "doktor milady horakove", "doktor milady horákové"
+        "dmh", "dr.mh", "drm h", "dr m h", "dr.m h", "drm h.", "drm. h", "dr m h.", "dr m. h", "dr. m h", "dr.m h.", "dr.m. h", "drm. h.", "dr m. h.", "dr. m h.", "dr. m. h", "dr.m. h.", "dokt. m h", "dr. m. h.", "milady h.", "dokt. m h.", "dokt. m. h", "doktor m h", "drmilady h", "dokt. m. h.", "doktor m h.", "doktor m. h", "dr milady h", "dr.milady h", "drmilady h.", "m. horakove", "m. horákové", "doktor m. h.", "dr milady h.", "dr. milady h", "dr.milady h.", "drm horakove", "drm horákové", "dr m horakove", "dr m horákové", "dr. milady h.", "dr.m horakove", "dr.m horákové", "drm. horakove", "drm. horákové", "dokt. milady h", "dr m. horakove", "dr m. horákové", "dr. m horakove", "dr. m horákové", "dr.m. horakove", "dr.m. horákové", "dokt. milady h.", "doktor milady h", "dr. m. horakove", "dr. m. horákové", "dokt. m horakove", "dokt. m horákové", "doktor milady h.", "dokt. m. horakove", "dokt. m. horákové", "doktor m horakove", "doktor m horákové", "drmilady horakove", "drmilady horákové", "doktor m. horakove", "doktor m. horákové", "dr milady horakove", "dr milady horakové", "dr milady horákové", "dr.milady horakove", "dr.milady horákové", "dr. milady horakove", "dr. milady horakové", "dr. milady horákove", "dr. milady horákové", "dr. milady. horákové", "dokt. milady horakove", "dokt. milady horákové", "doktor milady horakove", "doktor milady horákové", "mh", "m h", "m.h", "mh.", "m h.", "m. h", "m.h.", "milh", "m. h.", "mhor.", "mil h", "mil.h", "milh.", "m hor.", "m.hor.", "mil h.", "mil. h", "mil.h.", "m. hor.", "mhorak.", "mhorák.", "mil. h.", "miladyh", "milhor.", "m horak.", "m horák.", "m.horak.", "m.horák.", "mil hor.", "mil.hor.", "milady h", "miladyh.", "m. horak.", "m. horák.", "mhorakove", "mhorakové", "mhorákove", "mhorákové", "mil. hor.", "milady h.", "milhorak.", "milhorák.", "m horakove", "m horakové", "m horákove", "m horákové", "m.horakove", "m.horakové", "m.horákove", "m.horákové", "mil horak.", "mil horák.", "mil.horak.", "mil.horák.", "miladyhor.", "m. horakove", "m. horakové", "m. horákove", "m. horákové", "mil. horak.", "mil. horák.", "milady hor.", "milhorakove", "milhorakové", "milhorákove", "milhorákové", "mil horakove", "mil horakové", "mil horákove", "mil horákové", "mil.horakove", "mil.horakové", "mil.horákove", "mil.horákové", "miladyhorak.", "miladyhorák.", "mil. horakove", "mil. horakové", "mil. horákove", "mil. horákové", "milady horak.", "milady horák.", "miladyhorakove", "miladyhorakové", "miladyhorákove", "miladyhorákové", "milady horakove", "milady horakové", "milady horákove", "milady horákové", "milady. horakove", "milady. horákové"
     ], "sad"
 );
 TO_BE_ITERATED.push(DR_MILADY_HORAKOVE);
@@ -362,6 +362,11 @@ const ITERATED: Array<Question> = [];
 
 const BUNCH_OF_DASHES: string = "-------------------------------------------------------------------------------------------------------";
 
+const VERSION_1_2: string = BUNCH_OF_DASHES + `
+Verze 1.2 "Micro" - neděle 7.11.2026
+    - V předchozích verzích jste museli zmínit Dr. u Milady Horákové, nyní už nemusíte
+`;
+
 const VERSION_1_1: string = BUNCH_OF_DASHES + `
 Verze 1.1 "Modern Curves Update" - čtvrtek 5.11.2026
     - development jen tento čtvrtek
@@ -386,6 +391,7 @@ Verze 1.0 "Release" - středa 4.11.2026
 `;   
 
 const LOG: string = 
+    VERSION_1_2+
     VERSION_1_1+
     VERSION_1_0;
 
