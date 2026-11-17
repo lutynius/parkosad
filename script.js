@@ -321,7 +321,7 @@ const ITERATED = [];
 const BUNCH_OF_DASHES = "-------------------------------------------------------------------------------------------------------";
 const VERSION_1_3 = BUNCH_OF_DASHES + `
 
-Verze 1.3 "Nano" - ????
+Verze 1.3 "Nano" - úterý 17. listopadu 2026 (sváteček)
     - Přidal jsem mezery mezi updatelog textem a '----', aby to bylo čitelnější
     - Opravil jsem changelog:
         - u 1.2 byla chyba "neděle 7.11.2026", má tam být "neděle 8.11.2026"
