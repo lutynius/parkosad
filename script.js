@@ -319,17 +319,33 @@ console.log("Max score constant: " + maxScore);
 const ITERATED = [];
 //***********************************************************/
 const BUNCH_OF_DASHES = "-------------------------------------------------------------------------------------------------------";
+const VERSION_1_3 = BUNCH_OF_DASHES + `
+
+Verze 1.3 "Nano" - ????
+    - Přidal jsem mezery mezi updatelog textem a '----', aby to bylo čitelnější
+    - Opravil jsem changelog:
+        - u 1.2 byla chyba "neděle 7.11.2026", má tam být "neděle 8.11.2026"
+
+    - Opravil jsem alt u obrázku:
+        - v předchozích verzích jsem na to zapomněl, je mi to líto, je štěstí, že jsem si na to vzpomněl
+
+`;
 const VERSION_1_2 = BUNCH_OF_DASHES + `
-Verze 1.2 "Micro" - neděle 7.11.2026
+
+Verze 1.2 "Micro" - neděle 8.11.2026
     - V předchozích verzích jste museli zmínit Dr. u Milady Horákové, nyní už nemusíte
+
 `;
 const VERSION_1_1 = BUNCH_OF_DASHES + `
+
 Verze 1.1 "Modern Curves Update" - čtvrtek 5.11.2026
     - development jen tento čtvrtek
     - Udělal jsem tlačítka jemně ohnutá (radius 10%)
     - Přidal jsem copyright text, jelikož jsem na to v Releasu zapomněl
+
 `;
 const VERSION_1_0 = BUNCH_OF_DASHES + `
+
 Verze 1.0 "Release" - středa 4.11.2026
     - development de facto začal 31.10.2026
     - 5 sadů:
@@ -343,8 +359,10 @@ Verze 1.0 "Release" - středa 4.11.2026
         3. Světelno
         4. Temno
         5. Blud
+
 `;
-const LOG = VERSION_1_2 +
+const LOG = VERSION_1_3 +
+    VERSION_1_2 +
     VERSION_1_1 +
     VERSION_1_0;
 UPDATELOG_TEXT.textContent = LOG;
